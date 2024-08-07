@@ -42,15 +42,3 @@ credentials::set_github_pat()
 
 ###no need to do this below step!
 
-
-#### 5. Verify settings ######################################################
-
-usethis::git_sitrep()
-
-## Your username and email should be stated correctly in the output.
-## Also, the report should contain something like:
-## 'Personal access token: '<found in env var>''
-
-## If you are still having troubles, read the output carefully.
-## It might be that the PAT is still not updated in your `.Renviron` file.
-## Call `usethis::edit_r_environ()` to update that file manually.
